@@ -96,7 +96,6 @@ nav a:hover {
   background-color: rgb(43, 34, 34);
 }
 .contactcontent .row .col {
-  text-align: left;
   position: absolute;
   top: 75%;
   left: 50%;
@@ -113,13 +112,15 @@ nav a:hover {
   font-size: 36pt;
 }
 .contactcontent .row .col input {
-  margin: 30px;
+  margin: 20px;
   align-items: left;
   font-size: 16pt;
   border-radius: 22px;
+  padding: 10px;
 }
-.contactcontent .row .col input[type=submit] {
-  align-items: center;
+.contactcontent .row .col button {
+  margin: 20px;
+  margin-left: 266px;
   width: 200px;
   height: 55px;
   font-size: 16pt;
@@ -131,10 +132,17 @@ nav a:hover {
   color: #fff;
   background-color: turquoise;
 }
+.contactcontent .row .col button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: turquoise;
+}
 .contactcontent .row .col input[type=text] {
   width: 305px;
   height: 55px;
   font-family: Arial;
+  border: none;
+  text-decoration: none;
 }
 
 .homecontent {

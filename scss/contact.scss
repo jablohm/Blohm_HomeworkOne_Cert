@@ -15,7 +15,6 @@
     }
 
     .col {
-        text-align: left;
         position: absolute;
         top: 75%;
         left: 50%;
@@ -32,14 +31,16 @@
       }
 
       input {
-        margin: 30px;
+        margin: 20px;
         align-items: left;
         font-size: 16pt;
         border-radius: 22px;
+        padding: 10px;
       }
 
-      input[type="submit"] {
-        align-items: center;
+      button {
+        margin: 20px;
+        margin-left: 266px;
         width: 200px;
         height: 55px;
         font-size: 16pt;
@@ -52,12 +53,20 @@
         background-color: turquoise;
 
       }
+
+      button:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: turquoise;
+      }
+
+
       input[type="text"] {
         width: 305px;
         height: 55px;
         font-family: Arial;
-        
-
+        border: none;
+        text-decoration: none;
       }
     }
   }
