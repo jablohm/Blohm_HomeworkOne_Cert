@@ -41,11 +41,9 @@ nav a:hover {
 .aboutcontent {
   background-color: rgb(43, 34, 34);
   max-width: 1920px;
-  min-width: 400px;
-  min-height: 900px;
-  max-height: 1080px;
 }
 .aboutcontent .row {
+  max-width: 1920px;
   padding-top: 200px;
   justify-content: center;
   align-items: center;
@@ -81,9 +79,6 @@ nav a:hover {
 .contactcontent {
   background-color: rgb(43, 34, 34);
   max-width: 1920px;
-  min-width: 400px;
-  min-height: 900px;
-  max-height: 1080px;
 }
 .contactcontent .row {
   justify-content: center;
@@ -148,9 +143,6 @@ nav a:hover {
 .homecontent {
   background-color: rgb(41, 149, 138);
   max-width: 1920px;
-  min-width: 400px;
-  min-height: 900px;
-  max-height: 1080px;
 }
 .homecontent .hero {
   justify-content: center;
@@ -189,7 +181,48 @@ nav a:hover {
   font-size: 36pt;
 }
 
+.servscontent {
+  background-color: rgb(41, 149, 138);
+  max-width: 1920px;
+}
+.servscontent .row {
+  padding-top: 200px;
+  justify-content: center;
+  align-items: center;
+  display: table;
+  background-color: rgb(41, 149, 138);
+}
+.servscontent .row .col {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.servscontent .row .col img {
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+}
+.servscontent .row .col .desc {
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+  justify-content: left;
+  align-items: left;
+}
+.servscontent .row .col .desc h2 {
+  font-size: 36pt;
+  color: #fff;
+  letter-spacing: 1pt;
+}
+.servscontent .row .col .desc p {
+  color: #fff;
+  font-size: 16pt;
+}
+
 footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   height: 50px;
   max-width: 100%;
   font-weight: bolder;
