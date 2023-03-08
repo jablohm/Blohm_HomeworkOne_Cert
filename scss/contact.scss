@@ -1,0 +1,64 @@
+.contactcontent {
+  background-color: rgb(43, 34, 34);
+  max-width: 1920px;
+  min-width: 400px;
+  min-height: 900px;
+  max-height: 1080px;
+  .row {
+    justify-content: center;
+    display: table;
+    img {
+      max-width: 100%;
+      background-repeat: repeat;
+      background-size: contain;
+      background-color: rgb(43, 34, 34);
+    }
+
+    .col {
+        text-align: left;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        backdrop-filter: blur(20px);
+        border-radius: 55px;
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        letter-spacing: 1pt;
+        font-style: oblique;
+        font-size: 36pt;
+      }
+
+      input {
+        margin: 30px;
+        align-items: left;
+        font-size: 16pt;
+        border-radius: 22px;
+      }
+
+      input[type="submit"] {
+        align-items: center;
+        width: 200px;
+        height: 55px;
+        font-size: 16pt;
+        border-radius: 22px;
+        font-style: oblique;
+        font-weight: bold;
+        border: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: turquoise;
+
+      }
+      input[type="text"] {
+        width: 305px;
+        height: 55px;
+        font-family: Arial;
+        
+
+      }
+    }
+  }
+}

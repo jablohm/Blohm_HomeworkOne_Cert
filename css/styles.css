@@ -13,12 +13,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  height: 50px;
+  height: 70px;
   max-width: 100%;
+  position: fixed;
+  top: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(41, 149, 138);
+  margin: 20px;
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
 }
 nav a {
   color: #fff;
@@ -26,6 +30,155 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   justify-content: space-between;
+  font-size: 24pt;
+}
+nav a:hover {
+  color: rgb(77, 245, 228);
+  height: 20px;
+  cursor: pointer;
+}
+
+.aboutcontent {
+  background-color: rgb(43, 34, 34);
+  max-width: 1920px;
+  min-width: 400px;
+  min-height: 900px;
+  max-height: 1080px;
+}
+.aboutcontent .row {
+  padding-top: 200px;
+  justify-content: center;
+  align-items: center;
+  display: table;
+}
+.aboutcontent .row .col {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.aboutcontent .row .col img {
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+}
+.aboutcontent .row .col .about {
+  width: 50%;
+  height: 50%;
+  margin: 50px;
+  justify-content: right;
+  align-items: right;
+}
+.aboutcontent .row .col .about h1 {
+  font-size: 42pt;
+  color: #fff;
+  letter-spacing: 1pt;
+}
+.aboutcontent .row .col .about h3 {
+  color: #fff;
+  font-size: 16pt;
+}
+
+.contactcontent {
+  background-color: rgb(43, 34, 34);
+  max-width: 1920px;
+  min-width: 400px;
+  min-height: 900px;
+  max-height: 1080px;
+}
+.contactcontent .row {
+  justify-content: center;
+  display: table;
+}
+.contactcontent .row img {
+  max-width: 100%;
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: rgb(43, 34, 34);
+}
+.contactcontent .row .col {
+  text-align: left;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(20px);
+  border-radius: 55px;
+}
+.contactcontent .row .col h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  letter-spacing: 1pt;
+  font-style: oblique;
+  font-size: 36pt;
+}
+.contactcontent .row .col input {
+  margin: 30px;
+  align-items: left;
+  font-size: 16pt;
+  border-radius: 22px;
+}
+.contactcontent .row .col input[type=submit] {
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  font-size: 16pt;
+  border-radius: 22px;
+  font-style: oblique;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: turquoise;
+}
+.contactcontent .row .col input[type=text] {
+  width: 305px;
+  height: 55px;
+  font-family: Arial;
+}
+
+.homecontent {
+  background-color: rgb(41, 149, 138);
+  max-width: 1920px;
+  min-width: 400px;
+  min-height: 900px;
+  max-height: 1080px;
+}
+.homecontent .hero {
+  justify-content: center;
+  display: table;
+  max-width: 100%;
+  background-size: contain;
+  background-repeat: repeat;
+  background-color: rgb(41, 149, 138);
+}
+.homecontent .hero img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.homecontent .hero .col {
+  display: flex;
+}
+.homecontent .hero .col .welcome {
+  backdrop-filter: blur(2px);
+  border-radius: 55px;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.homecontent .hero .col .welcome h1 {
+  color: #fff;
+  font-style: oblique;
+  letter-spacing: 1pt;
+  font-size: 52pt;
+}
+.homecontent .hero .col .welcome h3 {
+  color: #fff;
+  font-style: oblique;
+  letter-spacing: 2pt;
+  font-size: 36pt;
 }
 
 footer {
